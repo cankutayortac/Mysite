@@ -1,0 +1,95 @@
+body {    
+    height: 100vh;
+    background-color: #eff7f8;
+    margin: 0px;
+ }
+ 
+ #sayfa-yapısı {
+     margin-left: 3rem;
+ margin-right: 3rem;
+ }
+ 
+ #logo {color: white;
+ text-decoration: none;}
+ nav {
+     display: flex;
+     background-color: #1B262C;
+     justify-content: space-around;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: #F9F7F7;
+ }
+ 
+ 
+ .container {
+     display: inline-flex;
+     flex-wrap: wrap;
+     height: min-content;
+     width: 100%;
+     
+ }
+ 
+ .brand {
+     margin-left: 15px;
+     font-size: 14pt;
+     font-weight: 600
+ }
+ 
+ .headerbuttons {
+     display: flex;
+     align-self: center;
+     gap: 25px;
+     margin-left: 50px;
+ }
+ 
+ 
+ button {
+     border-radius: 5px;
+     border: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 6rem;
+  
+     background-color: #0F4C75;
+ color: #F9F7F7;
+ }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .flex-footer-container {
+    display: flex;
+    height: min-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.footer-section {
+margin-top: 7rem;
+background-color: #1B262C;
+color: white;
+}

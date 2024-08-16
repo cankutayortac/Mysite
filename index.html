@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stlye.css" />
+    <title>My Personal Website</title>
+
+    <style>
+
+@media all and (max-width: 1135px) and (min-width: 623px) {
+     .soft-skills {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        max-height: fit-content;
+        border-width: 1px;
+        flex-grow: 1;
+        text-align: center;
+        border: 0px;
+        justify-content: center;
+        align-self: center;
+    }
+    .eğitim {
+        display: flex;
+        flex-direction: column;
+        padding-right: 5px;
+        border-width: 1px;
+        width: 250px;
+        max-height: fit-content;
+        flex-grow: 1;
+        text-align: center;
+        border: 0px;
+    }
+  }
+
+    @media all and (max-width: 623px)
+    {
+     .soft-skills {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        max-height: fit-content;
+        border-width: 1px;
+        flex-grow: 1;
+        text-align: center;
+        border: 0px;
+        position: relative;
+        right: 0px;
+        left: 25px;
+    }
+    .eğitim {
+        display: flex;
+        flex-direction: column;
+        padding-right: 5px;
+        border-width: 1px;
+        width: 250px;
+        max-height: fit-content;
+        flex-grow: 1;
+        text-align: center;
+        border: 0px;
+    }
+
+    .özgeçmiş-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #özet {
+    margin-top: 0%;
+    margin-bottom: 0px;
+text-align: center;
+    width: 100%;
+    font-family:   'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.özgeçmiş {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+.kitap {
+  padding-right: 15px;
+}
+  }
+    </style>
+  </head>
+  <body>
+    
+    <section class="navbar">
+      <nav>
+        <div class="container">
+          <p class="brand"><a href="./index.html" id="logo">Can Kutay Ortac</a></p>
+
+          <div class="headerbuttons">
+            <div>
+              <a href=./Resume/resume.html> <button id="headbutton"> Resume</button></a> 
+            </div>
+            <div>
+             <a href="./Contact Me/contact.html"> <button id="headbutton">Contact Me</button></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="sayfa-yapısı"></section>
+<section class="hero">
+<div class="flex-hero-container">
+<h1>
+    Can Kutay Ortac
+</h1>
+<p id="özet">
+
+    I grew up fascinated by computers, but initially pursued a career in English Language Teaching. Despite enjoying the role, I found the educational system's focus misaligned with my values, which emphasize supporting all students rather than just a few. This led me to leave teaching and briefly work as a ship agent, where I discovered the career did not suit me. Now, I've returned to my true passion
+</p>
+<p id="vurucu">
+    —working with computers, where I am most fulfilled.    
+</p>
+<a href="./Resume/resume.html"> <button id="hero-button">
+    Check Resume
+</button></a>
+</div>
+<hr>
+</section>
+
+<section class="özgeçmiş">
+  <div class="özgeçmiş-container">
+<div class="eğitim">
+<img class="mortarboard" src="./mortarboard-fill.svg" alt="mortarboard-fill">
+<h2>Studies</h2>
+<ul>
+  <li><img src="./caret-right-fill.svg" alt="">Appbrewery 2024 Bootcamp</li>
+  <li><img src="./caret-right-fill.svg" alt="">Google CyberSecurity Course</li>
+  <li><img src="./caret-right-fill.svg" alt="">English Language Teaching BS</li>
+</ul>
+</div>
+<div class="tecrübe">
+<img class="mortarboard" src="./briefcase-fill.svg" alt="briefcase-fill">
+<h2>Experiences</h2>
+<ul>
+  <li><img src="./caret-right-fill.svg" alt="">Shipping Agency- Operational Specialist</li>
+  <li><img src="./caret-right-fill.svg" alt="">English Teaching in a Private School</li>
+  <li><img src="./caret-right-fill.svg" alt="">English Teaching in a State School</li>
+</ul>
+</div>
+<div class="soft-skills">
+<img class="mortarboard" class="kitap" src="./book-half.svg" alt="book-half">
+<h2>
+  Soft Skills
+</h2>
+<div class="soft-skills-list">
+<ul >
+  <li><img src="./caret-right-fill.svg" alt="">Team Work</li>
+  <li><img src="./caret-right-fill.svg" alt="">Punctuality</li>
+  <li><img src="./caret-right-fill.svg" alt="">Flexiblity</li>
+</ul>
+</div>
+</div>
+  </div>
+</section>
+
+
+
+<section class="projects-section">
+  
+  <h2>PROJECTS</h2>
+  <hr id="başlık-çizgisi">
+
+<div class="projects-container">
+<div class="project">
+<a href="https://cankutayortac.github.io/PDA/" target="_blank"><img class="değiş" src="./pda site görüntü.png" width="350px" height="" ></a>
+<h3 id="PDA-başlık">Auto-calculator for expenses to authorities in maritime sector for Turkish Ports.</h3>
+</div>
+<div class="project">
+<a href="https://cankutayortac.github.io/tindog/" target="_blank"><img class="değiş" src="./tindog görüntü.png" width="350" href="https://cankutayortac.github.io/tindog/"></a>
+<h3 id="tindog-başlık">A "Tinder" but for dogs!</h3>
+</div>
+<div class="project">
+<img src="../6.4 Motivation Meme Project/goal.png" width="350px" alt="">
+<h3 id="meme-başlık">A Meme work just for some fun.</h3>
+</div>
+</div>
+</section>
+</section>
+
+
+<section class="footer-section">
+<footer class="flex-footer-container">
+  <p>© Can Kutay Ortac 2024</p>
+</div>
+</footer>
+</section>
+
+  </body>
+</html>
